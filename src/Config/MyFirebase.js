@@ -1,13 +1,13 @@
 import firebase from 'firebase'
 
 const config = {
-    apiKey: "AIzaSyCFKb3Hs7RkekBJ7DbXKZDZA72K1lO1mMA",
-    authDomain: "chatyfficial-web.firebaseapp.com",
-    projectId: "chatyfficial-web",
-    storageBucket: "chatyfficial-web.appspot.com",
-    messagingSenderId: "978150417044",
-    appId: "1:978150417044:web:9bebf6f27376316ef3ca81",
-    measurementId: "G-05RLCBT5FK"
+    apiKey: "AIzaSyDG-vBfyGBB81-LjjIC6NsHFoIVDdVC6lw",
+    authDomain: "chatyfficial-web-b2467.firebaseapp.com",
+    projectId: "chatyfficial-web-b2467",
+    storageBucket: "chatyfficial-web-b2467.appspot.com",
+    messagingSenderId: "576628956991",
+    appId: "1:576628956991:web:616fe58646f83bf14b3d8a",
+    measurementId: "G-BJQ2QWR9V8"
 }
 firebase.initializeApp(config)
 firebase.firestore().settings({
