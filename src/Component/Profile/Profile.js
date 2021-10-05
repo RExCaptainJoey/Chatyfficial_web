@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css'
 import {myFirestore, myStorage} from '../../Config/MyFirebase'
 import './Profile.css'
 import {AppString} from './../Const'
-import ic_input_file from "../../images/ic_input_file.png";
+import images from './../Themes/Images'
 
 class Profile extends Component {
     constructor(props) {
@@ -120,7 +120,7 @@ class Profile extends Component {
                     <img
                         className="imgInputFile"
                         alt= "Update Image"
-                        src={ic_input_file}
+                        src={images.ic_input_file}
                         onClick={() => this.refInput.click()}
                     />
                     <input

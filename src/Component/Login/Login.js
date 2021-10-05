@@ -1,4 +1,6 @@
-import firebase from 'firebase'
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
 import React, {Component} from 'react'
 import ReactLoading from 'react-loading'
 import {withRouter} from 'react-router-dom'
